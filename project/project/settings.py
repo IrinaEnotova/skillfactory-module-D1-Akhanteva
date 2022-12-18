@@ -45,6 +45,10 @@ INSTALLED_APPS = [
     'fpages'
 ]
 
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
+]
+
 SITE_ID = 1
 
 MIDDLEWARE = [
